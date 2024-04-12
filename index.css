@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    background-image: url(bg.jpg);
+    background-size: cover;
+  }
+  
+  .header {
+    width: auto;
+    margin-top: -20px;
+    height: 130px;
+    background-color: white;
+  }
+
+  .logo {
+    margin-top: 15px;
+    margin-left: 20px;
+    width: 100px;
+    cursor: pointer;
+  }
+
+  .logo-container {
+    margin-top: 15px;
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+  }
+
+  .med-name {
+    font-size: 24px;
+    margin-top: 15px;
+    margin-bottom: 0;
+    margin-left: 10px;
+    color: darkblue;
+
+  }
+
+  .span {
+    font-size: 18px;
+    font-style: italic;
+  }
+  h1 {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  form {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  input[type="tel"],
+  input[type="email"],
+  input[type="date"],
+  textarea {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type="radio"] {
+    margin-top: 5px;
+    margin-bottom: 15px;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  .submit_button {
+    background-color: lightblue;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 430px;
+  }
+  
+  .submit_button:hover {
+    background-color: white;
+  }
+.age {
+    margin-top: 10px;
+}
+  input[type="button"] {
+    background-color: lightblue;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  input[type="button"]:hover {
+    background-color: white;
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 600px) {
+    form {
+      padding: 10px;
+    }
+  }
+  
+  .auth {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.auth-content {
+    background-color: white;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 400px;
+    height: 290px;
+    background-image: url(heart.jpg);
+    
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+input[type="text"],
+select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid black;
+  font-size: 14px; 
+}
+
+input[type="password"],
+    select {
+        width: 95%;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid black;
+        font-size: 14px; 
+}
+
+
+#loginButton {
+    margin-top: 25px;
+    width: 100%;
+    background-color: blue;
+    color: white;
+    height: 35px;
+    border-radius: 5px;
+}
+
+#username{
+    margin-bottom: 10px;
+}
+
+#loginButton:hover  {
+    background-color: black;
+}
+
+.autho {
+  color: red;
+  margin-left: 70px;
+  margin-bottom: 30px;
+}
